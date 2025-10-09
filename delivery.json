@@ -1,0 +1,59 @@
+// Datos de productos (puedes mover esto a un archivo JSON separado)
+const products = [
+    {
+        id: 1,
+        name: "Pizza Margarita",
+        price: 12.99,
+        category: "comida",
+        image: "🍕"
+    },
+    {
+        id: 2,
+        name: "Hamburguesa Clásica",
+        price: 8.99,
+        category: "comida",
+        image: "🍔"
+    },
+    {
+        id: 3,
+        name: "Ensalada César",
+        price: 6.99,
+        category: "comida",
+        image: "🥗"
+    },
+        {
+        id: 4,
+        name: "Perro Caliente",
+        price: 4.99,
+        category: "comida",
+        image: "🌭"
+    },
+    {
+        id: 5,
+        name: "Coca Cola",
+        price: 1.99,
+        category: "bebidas",
+        image: "🥤"
+    },
+    {
+        id: 6,
+        name: "Jugo Natural",
+        price: 2.99,
+        category: "bebidas",
+        image: "🧃"
+    },
+    {
+        id: 7,
+        name: "Helado de Vainilla",
+        price: 4.99,
+        category: "postres",
+        image: "🍦"
+    },
+    {
+        id: 8,
+        name: "Pastel de Chocolate",
+        price: 5.99,
+        category: "postres",
+        image: "🍰"
+    }
+];

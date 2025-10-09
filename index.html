@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Interactivo</title>
+      <meta name="robots" content="index, follow">
+  <meta name="color-scheme" content="#ff6b35">
+  
+    <meta name="author" content="Yampiero Mujica">
+  <meta name="title" content="Menú interactivo.">
+  <meta name="description" content="Menú interactivo online.">
+  <meta name="keywords" content="menú, comida, bebida, postre, comida criolla, aperitivo, comida navideña, comida venezolana, gastronomía">
+
+  <!-- Apple -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Menú Interactivo">
+  <meta name="format-detection" content="telephone=no, address=no, email=no">
+  <link rel="apple-touch-icon" href="/comida.png" sizes="180x180">
+  <link rel="apple-touch-startup-image" href="/menu.png">
+  
+    <!-- Open Graph (Facebook, LinkedIn) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://menu-interactivo.vercel.app">
+  <meta property="og:title" content="Menú Interactivo">
+  <meta property="og:description" content="Menú interactivo online .">
+  <meta property="og:image" content="https://munu-interactivo.vercel.app/menu.png">
+
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Menú Interactivo">
+  <meta name="twitter:description" content="Menú interactivo online.">
+  <meta name="twitter:image" content="https://menu-interactivo.vercel.app/menú.png">
+  
+      <link rel="shortcut icon" type="image/x-icon" href="menu.png">
+      
+    
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js" type="text/javascript" charset="utf-8"></script>
+    <script src="delivery.json" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1>🍕</h1>
+            <div class="cart-icon" id="cartToggle">
+                🛒 <span id="cartCount">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Catálogo de Productos -->
+    <main class="main">
+        <div class="container">
+            <div class="filters">
+                <button class="filter-btn active" data-category="all">Todos</button>
+                <button class="filter-btn" data-category="comida">Comida</button>
+                <button class="filter-btn" data-category="bebidas">Bebidas</button>
+                <button class="filter-btn" data-category="postres">Postres</button>
+            </div>
+            
+            <div id="productsGrid" class="products-grid">
+                <!-- Productos cargados dinámicamente -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Carrito Lateral -->
+    <div id="cartSidebar" class="cart-sidebar">
+        <div class="cart-header">
+            <h2>Tu Pedido</h2>
+            <button id="closeCart" class="close-btn">X</button>
+        </div>
+        
+        <div id="cartItems" class="cart-items">
+            <!-- Items del carrito -->
+        </div>
+        
+        <div class="cart-footer">
+            <div class="cart-total">
+                Total: $<span id="cartTotal">0</span>
+            </div>
+            
+            <!-- Formulario de Cliente -->
+            <div class="customer-form">
+                <input type="text" id="customerName" placeholder="Tu nombre" required>
+                <input type="tel" id="customerPhone" placeholder="Tu teléfono" required>
+                <textarea id="customerAddress" placeholder="Dirección de entrega" required></textarea>
+                <textarea id="customerNotes" placeholder="Notas adicionales"></textarea>
+            </div>
+            
+            <button id="sendWhatsApp" class="whatsapp-btn">
+                📱 Enviar pedido por WhatsApp
+            </button>
+        </div>
+    </div>
+
+    <div id="cartOverlay" class="cart-overlay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -33,7 +33,7 @@ const products = [
         name: "Coca Cola",
         price: 1.99,
         category: "bebidas",
-        image: "🥤"
+        image: "https://images.pexels.com/photos/4389683/pexels-photo-4389683.jpeg"
     },
     {
         id: 6,

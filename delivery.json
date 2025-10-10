@@ -54,6 +54,6 @@ const products = [
         name: "Pastel de Chocolate",
         price: 5.99,
         category: "postres",
-        image: "https://menu-interactivo.vercel.app/image7.jpg"
+        image: "https://www.menu-interactivo.vercel.app/image7.jpg"
     }
 ];

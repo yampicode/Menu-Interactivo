@@ -54,6 +54,6 @@ const products = [
         name: "Pastel de Chocolate",
         price: 5.99,
         category: "postres",
-        image: "https://images.pexels.com/photos/34227761/pexels-photo-34227761.jpeg"
+        image: "Foto de Novkov Visuals de Pexels: https://www.pexels.com/es-es/foto/34227761/"
     }
 ];

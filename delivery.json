@@ -8,11 +8,11 @@ const products = [
         image: "https://www.pexels.com/es-es/foto/pizza-con-foto-de-huevo-845812/"
     },
     {
-        id: 2,
-        name: "Hamburguesa Clásica",
-        price: 8.99,
-        category: "comida",
-        image: "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg/"
+        "id": 2,
+        "name": "Hamburguesa Clásica",
+        "price": 8.99,
+        "category": "comida",
+        "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg"
     },
     {
         id: 3,
@@ -54,6 +54,6 @@ const products = [
         name: "Pastel de Chocolate",
         price: 5.99,
         category: "postres",
-        image: "https://www.menu-interactivo.vercel.app/image7.jpg"
+        image: "https://menu-interactivo.vercel.app/image7.jpg"
     }
 ];

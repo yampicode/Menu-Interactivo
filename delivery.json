@@ -1,11 +1,11 @@
 // Datos de productos (puedes mover esto a un archivo JSON separado)
 const products = [
     {
-        id: 1,
-        name: "Pizza Margarita",
-        price: 12.99,
-        category: "comida",
-        image: "https://www.pexels.com/es-es/foto/pizza-con-foto-de-huevo-845812/"
+        "id": 1,
+        "name": "Pizza Margarita",
+        "price": 12.99,
+        "category": "comida",
+        "image": "https://www.pexels.com/es-es/foto/pizza-con-foto-de-huevo-845812/"
     },
     {
         "id": 2,
@@ -15,45 +15,45 @@ const products = [
         "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg"
     },
     {
-        id: 3,
-        name: "Ensalada César",
-        price: 6.99,
-        category: "comida",
-        image: "https://www.pexels.com/es-es/foto/ensalada-de-verduras-sobre-un-plato-de-ceramica-blanca-764925/"
+        "id": 3,
+        "name": "Ensalada César",
+        "price": 6.99,
+        "category": "comida",
+        "image": "https://www.pexels.com/es-es/foto/ensalada-de-verduras-sobre-un-plato-de-ceramica-blanca-764925/"
     },
         {
-        id: 4,
-        name: "Perro Caliente",
-        price: 4.99,
-        category: "comida",
-        image: "https://www.pexels.com/es-es/foto/emparedado-1603898/"
+        "id": 4,
+        "name": "Perro Caliente",
+        "price": 4.99,
+        "category": "comida",
+        "image": "https://www.pexels.com/es-es/foto/emparedado-1603898/"
     },
     {
-        id: 5,
-        name: "Coca Cola",
-        price: 1.99,
-        category: "bebidas",
-        image: "https://images.pexels.com/photos/4389683/pexels-photo-4389683.jpeg"
+        "id": 5,
+        "name": "Coca Cola",
+        "price": 1.99,
+        "category": "bebidas",
+        "image": "https://images.pexels.com/photos/4389683/pexels-photo-4389683.jpeg"
     },
     {
-        id: 6,
-        name: "Jugo Natural",
-        price: 2.99,
-        category: "bebidas",
-        image: "https://www.pexels.com/es-es/foto/copas-de-vino-transparentes-7412/"
+        "id": 6,
+        "name": "Jugo Natural",
+        "price": 2.99,
+        "category": "bebidas",
+        "image": "https://www.pexels.com/es-es/foto/copas-de-vino-transparentes-7412/"
     },
     {
-        id: 7,
-        name: "Helado de Vainilla",
-        price: 4.99,
-        category: "postres",
-        image: "https://www.pexels.com/es-es/foto/comida-cuchara-chocolate-bombon-5061036/"
+        "id": 7,
+        "name": "Helado de Vainilla",
+        "price": 4.99,
+        "category": "postres",
+        "image": "https://www.pexels.com/es-es/foto/comida-cuchara-chocolate-bombon-5061036/"
     },
     {
-        id: 8,
-        name: "Pastel de Chocolate",
-        price: 5.99,
-        category: "postres",
-        image: "https://menu-interactivo.vercel.app/image7.jpg"
+        "id": 8,
+        "name": "Pastel de Chocolate",
+        "price": 5.99,
+        "category": "postres",
+        "image": "https://menu-interactivo.vercel.app/image7.jpg"
     }
 ];

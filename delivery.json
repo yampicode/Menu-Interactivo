@@ -40,7 +40,7 @@ const products = [
         name: "Jugo Natural",
         price: 2.99,
         category: "bebidas",
-        image: "🧃"
+        image: "https://www.pexels.com/es-es/foto/copas-de-vino-transparentes-7412/"
     },
     {
         id: 7,

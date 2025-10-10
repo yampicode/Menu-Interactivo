@@ -47,7 +47,7 @@ const products = [
         name: "Helado de Vainilla",
         price: 4.99,
         category: "postres",
-        image: "🍦"
+        image: "https://www.pexels.com/es-es/foto/comida-cuchara-chocolate-bombon-5061036/"
     },
     {
         id: 8,

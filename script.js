@@ -190,9 +190,9 @@ function sendOrderToWhatsApp() {
     window.open(whatsappUrl, '_blank');
     
     // Opcional: Limpiar carrito después del envío
-    // cart = [];
-    // updateCart();
-    // toggleCart();
+     cart = [];
+     updateCart();
+     toggleCart();
 }
 
 // Inicializar la aplicación cuando se carga la página

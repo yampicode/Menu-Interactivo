@@ -5,7 +5,7 @@ const products = [
         name: "Pizza Margarita",
         price: 12.99,
         category: "comida",
-        image: "🍕"
+        image: "https://www.pexels.com/es-es/foto/pizza-con-foto-de-huevo-845812/"
     },
     {
         id: 2,

@@ -12,7 +12,7 @@ const products = [
         name: "Hamburguesa Clásica",
         price: 8.99,
         category: "comida",
-        image: "🍔"
+        image: "https://images.pexels.com/photos/34223531/pexels-photo-34223531.jpeg"
     },
     {
         id: 3,

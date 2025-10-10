@@ -54,6 +54,6 @@ const products = [
         name: "Pastel de Chocolate",
         price: 5.99,
         category: "postres",
-        image: "image7.jpg"
+        image: "🥧"
     }
 ];

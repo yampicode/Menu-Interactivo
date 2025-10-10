@@ -26,7 +26,7 @@ const products = [
         name: "Perro Caliente",
         price: 4.99,
         category: "comida",
-        image: "🌭"
+        image: "https://www.pexels.com/es-es/foto/emparedado-1603898/"
     },
     {
         id: 5,

@@ -19,7 +19,7 @@ const products = [
         "name": "Ensalada César",
         "price": 6.99,
         "category": "comida",
-        "image": "https://www.pexels.com/es-es/foto/ensalada-de-verduras-sobre-un-plato-de-ceramica-blanca-764925/"
+        "image": "https://www.pexels.com/es-es/foto/ensalada-de-verduras-sobre-un-plato-de-ceramica-blanca-764925.jpg/"
     },
         {
         "id": 4,

@@ -12,7 +12,7 @@ const products = [
         "name": "Hamburguesa Clásica",
         "price": 8.99,
         "category": "comida",
-        "image": "https://share.google/8rw7BXZp4Az7u3q4m"
+        "image": "https://unsplash.com/es/fotos/tres-hamburguesas-y-papas-fritas-en-una-canasta-tsB97NwNX28"
     },
     {
         "id": 3,

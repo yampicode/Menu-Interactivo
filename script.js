@@ -128,7 +128,7 @@ const localProducts = [
         name: "Agua Mineral",
         price: 1.49,
         category: "bebidas",
-        image: "https://images.unsplash.com/photo-1548839149-6d15e6c5edd8?w=400&h=300&fit=crop",
+        image: "https://www.pexels.com/es-es/foto/botella-de-plastico-aguamarina-vacia-593099/",
         description: "Agua mineral natural 500ml"
     },
     {

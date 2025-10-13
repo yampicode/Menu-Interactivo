@@ -422,7 +422,7 @@ function showOrderConfirmation(orderNumber) {
             <p style="margin-bottom: 1.5rem; font-size: 0.9rem; color: #666;">
                 El restaurante se pondrá en contacto contigo para confirmar.
             </p>
-            <button onclick="this.parentElement.remove()" style="
+            <button id="aceptar" onclick="this.parentElement.remove()" style="
                 background: #ff6b35;
                 color: white;
                 border: none;
@@ -451,8 +451,9 @@ function showOrderConfirmation(orderNumber) {
     document.body.appendChild(overlay);
     document.body.appendChild(confirmation);
     
-    // Remover ambos elementos al hacer clic en el overlay
-    overlay.addEventListener('click', function() {
+    // Remover ambos elementos al hacer clic en el botón aceptar
+const aceptarBtn = document.querySelector("#aceptar");
+    aceptarBtn.addEventListener('click', function() {
         overlay.remove();
         confirmation.remove();
     });

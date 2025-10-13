@@ -47,7 +47,7 @@ const products = [
         "name": "Helado de Vainilla",
         "price": 4.99,
         "category": "postres",
-        "image": "image7.jpg"
+        "image": "/image7.jpg"
     },
     {
         "id": 8,

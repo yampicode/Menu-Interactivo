@@ -5,14 +5,14 @@ const products = [
         "name": "Pizza Margarita",
         "price": 12.99,
         "category": "comida",
-        "image": "https://www.pexels.com/es-es/foto/pizza-con-foto-de-huevo-845812/"
+        "image": "https://pexels.com/es-es/foto/pizza-con-foto-de-huevo-845812/"
     },
     {
         "id": 2,
         "name": "Hamburguesa Clásica",
         "price": 8.99,
         "category": "comida",
-        "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg"
+        "image": "image7.jpg"
     },
     {
         "id": 3,

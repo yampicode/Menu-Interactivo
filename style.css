@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+  --color-brand: #ff6b35;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     font-size: 100%;
@@ -289,6 +293,16 @@ body {
 
 .cart-overlay.show {
     display: block;
+}
+
+.footer {
+  background: var(--color-brand);
+  color: #fff;
+}
+
+.pie {
+  text-align: center;
+  padding: 50px 0;
 }
 
 /* Responsive */

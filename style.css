@@ -54,7 +54,7 @@ body {
 
 .filters {
     display: flex;
-    gap: 10px;
+    gap: 7px;
     margin:0 0 2rem;
     flex-wrap: wrap;
 }
